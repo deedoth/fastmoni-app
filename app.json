@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "fastamoni",
+    "slug": "devmode-fastamoni",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/images/splash.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./app/assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#0088CC"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/fc3c733f-3359-4e52-8ac9-de602a84f137"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/images/splash.png",
+        "backgroundColor": "#0088CC"
+      },
+      "package": "com.joshticks002.devmodefastamoni"
+    },
+    "web": {
+      "favicon": "./app/assets/images/applogo.png"
+    },
+    "owner": "deedoth",
+    "extra": {
+      "eas": {
+        "projectId": "fc3c733f-3359-4e52-8ac9-de602a84f137"
+      }
+    }
+  }
+}
+
